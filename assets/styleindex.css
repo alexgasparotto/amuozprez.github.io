@@ -12,6 +12,10 @@ header{
     /* margin: 0%; */
 }
 
+.Inicio{
+    padding-top: 100px;
+}
+
 .info{
     display: flex;
     /* top: 800px;
@@ -49,6 +53,10 @@ header{
     width: 1280px; */
     height: 350px;
     align-content: center;
+}
+
+.imgwork :hover{
+    border: solid white;
 }
 
 .portafolio img{

@@ -14,35 +14,48 @@
     <title>ProyectoFinal_CURRICULUM_VITAE_Alvaro_Muñoz</title>
     <link rel="stylesheet" href="./assets/styleindex.css">
 </head>
-
-
 <body>
-
-    <header>
-        <h1 class="mt-2">CURRICULUM VITAE</h1>
-    </header>
-
-
-    <nav class="navbar bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand text-light" href="https://www.linkedin.com/in/alvaro-mu%C3%B1oz-perez-a66819147/"
+    <!-- Inicio de Navbar Alexgasparotto -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="navbar-brand text-light" href="https://www.linkedin.com/in/alvaro-mu%C3%B1oz-perez-a66819147/"
                 target="_blank">
                 <img src="./assets/images/logo-linkedin-icon-4096.png" alt="Logo" width="35" height="35"
                     class="d-inline-block align-text-top">
                 LinkedIn
-            </a>
+                  </a>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Acerca-de-mi">Acerca de mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Mis-trabajos">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/alvaro-mu%C3%B1oz-perez-a66819147/">Contáctame</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
+        <!-- FIN de Navbar Alexgasparotto -->
 
-
+    <div class="Inicio container-fluid">
     <main class="info bg-secondary-subtle">
         <div>
-            <img src="./assets/images/foto_perfil_cv.png" alt="Foto de perfil CV Alvaro Muñoz" height="350px"
+            <img id="Acerca-de-mi" src="./assets/images/foto_perfil_cv.png" alt="Foto de perfil CV Alvaro Muñoz" height="350px"
                 width="350px">
         </div>
         <div>
             <h2 class="mb-5 fw-bold display-5">Alvaro Mauricio Muñoz Perez</h2>
-            <p>
+            <p class="text-center">
                 Resumen
                 <br>
                 Ingeniero Comercial especializado en el área de Marketing con experiencia en trato directo con el
@@ -52,6 +65,7 @@
             </p>
         </div>
     </main>
+    </div>
 
 
     <section class="container text-center my-5">
@@ -84,19 +98,19 @@
     </section>
 
     <section class="bg-dark">
-        <h2 class="pt-5 display-8 fw-bold text-center text-light"><span><i class="fa-solid fa-file-zipper"></i></span> Proyectos
+        <h2 id="Mis-trabajos" class="pt-5 display-8 fw-bold text-center text-light"><span><i class="fa-solid fa-file-zipper"></i></span> Proyectos
         </h2>
         <div class="portafolio">
-            <div>
+            <div class="imgwork">
                 <a href="./landingpage.html" target="_blank"><img src="./assets/images/landing_page.jpg" alt="Proyecto Landing Page"></a>
             </div>
-            <div>
+            <div class="imgwork">
                 <a href="./iguanapage.html" target="_blank"><img src="./assets/images/iguana_page.jpg" alt="Proyecto Iguana Page"></a>
             </div>
-            <div>
+            <div class="imgwork">
                 <a href="./cuppon.html" target="_blank"><img src="./assets/images/cuppon.jpg" alt="Proyecto Cuppon"></a>
             </div>
-            <div>
+            <div class="imgwork">
                 <a href="./git.html" target="_blank"><img src="./assets/images/github.jpg" alt="Proyecto Git"></a>
             </div>
         </div>
